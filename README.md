@@ -8,7 +8,7 @@ This app is developed as a test assignment for Frontend Development position at 
 2. There are are no additional libraries used other than `create-react-app`.
 3. It shows a total of 15 channels at a time with pagination.
 4. It allows searching, filtering and sorting through the channels.
-5. Download the code and run `yarn install` and `yarn run` to run app.
+5. Clone the repo and run `yarn install` and `yarn run` to run app on `http://localhost:3000/`.
 
 ## Screenshot
 
