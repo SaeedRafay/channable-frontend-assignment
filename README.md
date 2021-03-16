@@ -12,4 +12,4 @@ This app is developed as a test assignment for Frontend Development position at 
 
 ## Screenshot
 
-![](https://github.com/SaeedRafay/channable-frontend-assignment/channable-frontend-assignment-screenshot.png)
+![](https://github.com/SaeedRafay/channable-frontend-assignment/blob/main/channable-frontend-assignment-screenshot.png)
