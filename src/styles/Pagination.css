@@ -1,0 +1,43 @@
+#root .Pagination {
+    margin-top: 1.5rem;
+}
+
+#root .Pagination > button {
+    border: 1px solid #dedede;
+    background-color: #fff;
+    border-right: 0px;
+    padding: 0.5rem 0.75rem;
+    color: #007bff;
+    cursor: pointer;
+}
+
+#root .Pagination > button:hover:not(button:disabled):not(button.currPage) {
+    background-color: #eee;
+}
+
+#root .Pagination > button:focus {
+    outline: 0;
+}
+
+#root .Pagination > button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+#root .Pagination > button.prevPage {
+    border-radius: 5px 0 0 5px;
+}
+
+#root .Pagination > button.nextPage {
+    border-right: 1px solid #dedede;
+    border-radius: 0 5px 5px 0;
+}
+
+#root .Pagination > button.currPage {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#root .Pagination > small {
+    margin-right: 1rem;
+}

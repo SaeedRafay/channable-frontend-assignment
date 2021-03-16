@@ -1,0 +1,13 @@
+#root .Filters > * {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 0.3rem 0.65rem;
+    margin-right: 0.6rem;
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    outline: 0;
+}
+
+#root .Filters > input {
+    width: 250px;
+}

@@ -1,0 +1,38 @@
+#root ul.ChannelsList {
+    width: 100%;
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0.5rem;
+}
+
+#root ul.ChannelsList li {
+    border: 1px solid #dedede;
+    font-size: 0.8rem;
+}
+
+#root ul.ChannelsList li img {
+    max-width: 100%;
+}
+
+#root ul.ChannelsList li > .channelInfo {
+    padding: 0.2rem 0.3rem 0.5rem;
+}
+
+#root ul.ChannelsList li > .channelInfo > * {
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    #root ul.ChannelsList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #root ul.ChannelsList {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root .App {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 2rem 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#root .App > h1 {
+  margin-bottom: 1rem;
+}
+
+#root .App input,
+#root .App select,
+#root .App button {
+  font-family: inherit;
+}
